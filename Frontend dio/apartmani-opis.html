@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rezervacija apartmana">
+	<meta name="keywords" content="rezervacija, apartman">
+	<meta name="author" content="Aldo Grabić">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <title>Apartmani AG | Rezervirajte sada!</title>
+</head>
+<body>
+    <header>
+        <section class="logo">
+            <p><a href="index.html">Apartmani AG</a></p>
+        </section>
+        <section class="jezik">
+            <div id="google_translate_element"></div>
+        </section>
+        <section class="registracija_prijava">
+            <ul>
+                <li><a href="registracija.html">Registracija</a></li>
+                <li><a href="prijava.html">Prijava</a></li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <section class="sadrzaj_kontejner">
+            <section id="sidebar_sadrzaj">
+                
+                <section id="naslovna_forma_2">
+                    <form action="apartmani.html" method="get">
+                        <h1>Traži!</h1>
+                        <label for="datum_prijave">Datum prijave</label>
+                        <input type="text" name="datum_prijave" id="datum_prijave" placeholder="Datum prijave" onfocus="(this.type='date')">
+                        
+                        <label for="datum_odjave">Datum odjave</label>
+                        <input type="text" name="datum_odjave" id="datum_odjave" placeholder="Datum odjave" onfocus="(this.type='date')">
+        
+                        <label for="broj_odraslih">Broj odraslih</label>
+                        <input type="number" name="broj_odraslih" id="broj_odraslih" min="1" placeholder="Broj odraslih">
+    
+                        <label for="broj_djece">Broj djece</label>
+                        <input type="number" name="broj_djece" id="broj_djece" min="0" placeholder="Broj djece">
+        
+                        <button type="submit">Traži</button>
+                    </form>
+                </section>
+
+                <section id="google_karta_sidebar">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2903.42387747959!2d17.011196215700416!3d43.30538538286926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134aee7c6daad4f5%3A0x3919323f3c903b07!2sApartmani%20Ante!5e0!3m2!1shr!2shr!4v1667303703366!5m2!1shr!2shr" width="287" height="387" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </section>
+            </section>
+            <section id="apartmani_sadrzaj">
+                <section id="galerija_slika_apartmani">
+                    <img src="img/slika1.jpg">
+                    <img src="img/slika2.jpg">
+                    <img src="img/slika3.jpg">
+                    <img src="img/slika4.jpg">
+                    <img src="img/slika5.jpg">
+                    <img src="img/slika6.jpg">
+                </section>
+                <section id="opis_apartmani">
+                    <h1>Naziv apartmana</h1>
+                    <h2>Opis</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, doloribus sit, nemo voluptates dicta eos quam beatae quia aut deleniti quisquam inventore vel voluptatibus eligendi ex, sequi harum! In sit cumque, ex animi dolor libero consectetur eos officiis expedita! Praesentium quo voluptatibus cum, deleniti repellat nobis inventore quas reiciendis laboriosam.</p>
+                    <h2>Sadržaj</h2>
+                    <section id="sadrzaj_lista">
+                        <ul id="lista_kupaonica">
+                            <h1>Kupaonica</h1>
+                            <li>tuš &#10004;</li>
+                            <li>perilica rublja &#10004;</li>
+                            <li>umivaonik &#10004;</li>
+                        </ul>
+                        <ul id="lista_kuhinja">
+                            <h1>Kuhinja</h1>
+                            <li>štednjak &#10004;</li>
+                            <li>duboko zamrzavanje &#10004;</li>
+                            <li>aparat za kavu &#10004;</li>
+                        </ul>
+                        <ul id="lista_spavaca_soba">
+                            <h1>Spavaća soba</h1>
+                            <li>krevet &#10004;</li>
+                            <li>ormar &#10004;</li>
+                            <li>televizija &#10004;</li>
+                        </ul>
+                        <ul id="lista_dnevna_soba">
+                            <h1>Dnevna soba</h1>
+                            <li>televizija &#10004;</li>
+                            <li>kauč &#10004;</li>
+                            <li>Wi-Fi &#10004;</li>
+                        </ul>
+                    </section>
+                    
+                </section>
+                <section id="cijena_rezervacija_apartmani">
+                    <p>Cijena</p>
+                    <button>Rezerviraj</button>
+                </section>
+                
+            </section>
+        </section>
+
+        
+            
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2022 Apartmani AG</p>
+    </footer>
+
+</body>
+</html>

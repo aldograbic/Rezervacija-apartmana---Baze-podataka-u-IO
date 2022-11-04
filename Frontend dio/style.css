@@ -1,0 +1,395 @@
+body, html {
+	margin: 0;
+	font-size: 16px;
+	background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+	font-family: 'Roboto', sans-serif;
+	opacity: 0.8;
+
+}
+header {
+	display: flex;
+    justify-content: space-around;
+	width: 100%;
+	font-size: 24px;
+}
+
+footer {
+	width: 100%;
+    text-align: center;
+	position: fixed;
+	bottom: 0;
+}
+
+.registracija_prijava ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.registracija_prijava li {
+	font-weight: bold;
+    float: left;
+}
+
+.registracija_prijava li a {
+	display: block;
+	text-align: center;
+	padding: 3vh 1vw;
+	text-decoration: none;
+	color: black;
+}
+
+.registracija_prijava a:hover {
+	text-decoration: underline;
+}
+
+.logo {
+	margin-top: 0.4vh;
+	font-weight: bold;
+}
+
+.logo a {
+	color: black;
+	text-decoration: none;
+}
+
+.jezik {
+    margin-top: 3.2vh;
+	transform: translateX(22vw);
+}
+
+.goog-logo-link {
+    display: none !important;
+} 
+    
+.goog-te-gadget{
+    color: transparent !important;
+}
+
+#naslovna_forma {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 75%;
+	margin-left: 12vw;
+	height: 100px;
+	border: 1px solid black;
+	border-radius: 15px;
+	background-color: rgba(128, 128, 128, 0.103);
+	transform: translateY(25vh);
+	box-shadow: 5px 5px rgba(128, 128, 128, 0.5);
+}
+
+#naslovna_forma input {
+	width: 10vw;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif;
+	height: 3.5vh;
+	border-radius: 10px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#naslovna_forma button {
+	height: 4.2vh;
+	width: 4.2vw;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 10px;
+	border: 1px solid rgb(68, 68, 68);
+	cursor: pointer;
+	margin-left: 3vw;
+}
+
+#naslovna_forma button:active {
+	transform: translateY(2.5px);
+}
+
+.sadrzaj_kontejner {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	width: 75vw;
+	min-height: 85vh;
+	margin-left: 12vw;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid black;
+	border-radius: 7.5px;
+	box-shadow: 5px 5px rgba(128, 128, 128, 0.5);
+}
+
+#sidebar_sadrzaj {
+	display: flex;
+	flex-direction: column;
+	background-color: #ace1f954;
+	border-top-left-radius: 7.5px;
+	border-bottom-left-radius: 7.5px;
+	flex: 1 1 20%;
+	min-width: 20ch;
+}
+
+#naslovna_forma_2 {
+	flex: 1 0 50%;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-top-right-radius: 7.5px;
+}
+
+#naslovna_forma_2 form {
+	padding: 1vh 2vw 1vh 2.25vw;
+	
+}
+
+#naslovna_forma_2 label {
+	font-size: 14px;
+}
+
+#naslovna_forma_2 input {
+	width: 10vw;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+	font-family: 'Roboto', sans-serif;
+}
+
+#naslovna_forma_2 h1 {
+	font-size: 20px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#naslovna_forma_2 button {
+	height: 4.2vh;
+	width: 4.2vw;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 4vh;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 10px;
+	border: 1px solid rgb(68, 68, 68);
+	cursor: pointer;
+	
+}
+
+button:active {
+	transform: translateY(2.5px);
+}
+
+#filteri_sidebar {
+	flex: 1 1 50%;
+	border-right: 1px solid black;
+	row-gap: 1vh;
+	border-bottom-right-radius: 7.5px;
+}
+
+#filteri_sidebar form {
+	padding-top: 1vh;
+	padding-left: 2vw;
+	padding-right: 4vw;
+}
+
+#filteri_sidebar p {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+#filteri_sidebar input{
+	margin-top: 1vh;
+}
+
+#apartmani_sadrzaj {
+	flex: 1 1 80%;
+}
+
+.prijava_registracija_sadrzaj {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 75vw;
+	min-height: 85vh;
+	margin-left: 12vw;
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 1px solid black;
+	border-radius: 7.5px;
+	box-shadow: 5px 5px rgba(128, 128, 128, 0.5);
+}
+
+.prijava_registracija_sadrzaj form {
+	width: 10vw;
+	padding-bottom: 5vh;
+	padding-top: 5vh;
+}
+
+.prijava_registracija_sadrzaj input {
+	width: 10vw;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 1vh;
+	font-size: 16px;
+}
+
+.prijava_registracija_sadrzaj select {
+	width: 10.4vw;
+	height: 2.75vh;
+	margin-bottom: 1vh;
+}
+
+.prijava_registracija_sadrzaj button {
+	width: 10.4vw;
+	height: 4.2vh;
+	margin-top: 2vh;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+}
+
+.prijava_registracija_sadrzaj h1 {
+	text-decoration: underline;
+}
+
+.prijava_registracija_sadrzaj a {
+	color: black;
+	font-weight: bold;
+}
+
+.apartman {
+	display: flex;
+	width: 50vw;
+	height: 30vh;
+	justify-content: center;
+	text-align: center;
+	margin-left: 5vw;
+	margin-top: 5vh;
+	margin-bottom: 5vh;
+	border: 1px solid black;
+	border-radius: 7.5px;
+	box-shadow: 5px 5px rgba(128, 128, 128, 0.5);
+	
+}
+
+#apartmani_info {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+#apartmani_info img{
+	width: 33.333333%;
+	order: 1;
+	flex: 1 1 33.333333%;
+	padding-left: 1.75vw;
+	
+}
+
+#apartmani_info h1 {
+	order: 2;
+	flex: 1 1 33.333333%;
+	padding-right: 15vw;
+}
+
+#info_rec_cij_gumb {
+	order: 3;
+	flex: 1 1 33.333333%;
+}
+
+#info_rec_cij_gumb button {
+	width: 4.2vw;
+	height: 4.2vh;
+	margin-top: 10vh;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 1px solid rgb(68, 68, 68);
+}
+
+#google_karta_sidebar {
+	flex: 1 1 50%;
+	border-right: 1px solid black;
+	border-bottom-right-radius: 7.5px;
+}
+
+
+#opis_apartmani {
+	display: flex;
+	flex-direction: column;
+}
+
+#galerija_slika_apartmani {
+	display: flex;
+	gap: 0.25vw;
+	flex: 1 1 30%;
+	margin: 0.5vh;
+	text-align: center;
+	border-bottom: 1px solid black;
+	overflow-x: auto;
+}
+
+
+#galerija_slika_apartmani img {
+	width: 100%;
+	height: 27vh;
+	border-radius: 5px;
+}
+
+#opis_apartmani {
+	flex: 1 1 50%;
+	margin: 1vh;
+	height: 47.5vh;
+	justify-content: center;
+}
+
+#opis_apartmani h1 {
+	font-size: 20px;
+}
+
+#opis_apartmani h2 {
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+#opis_apartmani p {
+	max-width: 50vw;
+}
+
+#cijena_rezervacija_apartmani {
+	text-align: right;
+	flex: 1 1 20%;
+	margin-bottom: 2vh;
+	margin-right: 2vw;
+}
+
+#cijena_rezervacija_apartmani p {
+	padding-right: 1vw;
+}
+
+#cijena_rezervacija_apartmani button {
+	width: 4.2vw;
+	height: 4.2vh;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	cursor: pointer;
+	border-radius: 10px;
+	border: 1px solid rgb(68, 68, 68);
+}
+
+#sadrzaj_lista {
+	display: flex;
+	justify-content: flex-start;
+	gap: 4vw;
+	margin-left: 1vw;
+	
+}
+
+#sadrzaj_lista li {
+	list-style: none;
+}
+
+#sadrzaj_lista h1 {
+	font-size: 16px;
+	text-decoration: underline;
+}
